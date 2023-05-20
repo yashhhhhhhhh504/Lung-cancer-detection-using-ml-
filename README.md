@@ -20,4 +20,14 @@ the dataset consits of following data:
 17. Shortness of Breath The level of shortness of breath of the patient. (Categorical)
 18. Wheezing The level of wheezing of the patient. (Categorical)
 19. Swallowing Difficulty The level of swallowing difficulty of the patient. (Categorical)
-20. Clubbing of Finger Nails The level of clubbing of finger nails of the patient. (Categorical
+20. Clubbing of Finger Nails The level of clubbing of finger nails of the patient. (Categorical)
+
+# Test results: 
+the confusion matrix after the regression model is: 
+[[75  0  0]
+ [ 0 67  0]
+ [ 0  0 58]]
+
+The accuracy score is: 
+1.0
+it means this model has accuracy 100% and able to predict all testset data
